@@ -97,6 +97,7 @@ function wordLength(word){
 
 
 
-
+// 24 feb
+console.log("Difference between == & ===");
 
 

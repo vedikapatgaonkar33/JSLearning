@@ -3,12 +3,12 @@ console.log("******************** (1) *********************");
 
 function greaterNumber(num1,num2){
     var grtNo =  num1 > num2 ? num1 : num2;
-    return grtNo;
+    console.log("Greater No is : ",grtNo);
 }
 var grtNo = greaterNumber(10,-10);
-console.log("Greater No is : ",grtNo);
+
 var grtNo = greaterNumber(800,899);
-console.log("Greater No is : ",grtNo);
+
 
 console.log("******************** (2) *********************");
 

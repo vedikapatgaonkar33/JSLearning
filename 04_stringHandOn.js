@@ -22,7 +22,7 @@ console.log("Total Number Of extra spaces",resultStringHandOn.length-stringHandO
 
 console.log("********************  #5  **********************");
 
-console.log("First Character",stringHandOnTrim.charAt(0),"Last charcter ",stringHandOnTrim.charAt(stringHandOnTrim.length-1));
+console.log("First Character",stringHandOnTrim.charAt(0,2),"Last charcter ",stringHandOnTrim.charAt(stringHandOnTrim.length-1));
 
 console.log("********************  #6   **********************");
 
