@@ -16,6 +16,8 @@ console.log(`Hey "Stew jobs" ${result}`);
 
 console.log("************** (2) ***************");
 
+
+
 function femaleMarriageEligibility(gender,age,boyName){
     if(gender=="female" && age>=18){
         return "You Are Eligible for Marriage";

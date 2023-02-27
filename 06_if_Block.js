@@ -27,7 +27,7 @@ function checkEvenOdd(num1){
     }
 }
 var result = checkEvenOdd(45);
-console.log(`Given no 45 is ${result}`);
+console.log(`Given no 45  is ${result}`);
 
 var num2 = 5;
 if (num2>0){
@@ -38,4 +38,19 @@ if (num2>0){
     
     
 }
+
+
+function maleMarriageEligibility(gender,age,boyName){
+    if(gender=="Male" && age>=21){
+        return "You Are Eligible for Marriage";
+    }
+    else{
+        return  "unforunately you Are Not Eligible for Marriage";
+    }
+}
+var result = maleMarriageEligibility("Male",25,"Billgates")
+console.log(`Hey "Billgates" ${result}`);
+
+var result = maleMarriageEligibility("Male",20,"Stew jobs")
+console.log(`Hey "Stew jobs" ${result}`);
 
