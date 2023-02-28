@@ -1,0 +1,23 @@
+var checkLeapYear = function (leapYear) {
+    
+    if (typeof leapYear!="number"|| leapYear==null || leapYear==undefined || typeof leapYear== "string") {
+        console.log(`The Year ${leapYear} is a Invalid `);
+    
+    } else if (leapYear%4==0) {
+        console.log(`The Year ${leapYear} is  Leap Year`);
+    }
+    else{
+        console.log(`The Year ${leapYear} is Not Leap Year`); 
+    }
+    
+}
+checkLeapYear(2020);
+checkLeapYear(1999);
+checkLeapYear(1600);
+checkLeapYear(2022);
+checkLeapYear(1945);
+checkLeapYear(null);
+checkLeapYear("Twenty Twenty");
+checkLeapYear(undefined);
+checkLeapYear(1750);
+checkLeapYear(NaN);

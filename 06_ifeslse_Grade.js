@@ -1,6 +1,6 @@
 console.log("********************  #1  **********************");
 function voteEligibility(age){
-    if (age<=0 || age==undefined || age==null || age >120) {
+    if (age<=0 || age==undefined || age==null || age >120 || isNaN()) {
     return  `your age ${age} is invalid please Enter valid Data.`;
     }
     if (age>18) {
