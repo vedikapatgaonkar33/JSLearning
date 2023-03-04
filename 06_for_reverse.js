@@ -61,3 +61,7 @@ for (let index = 0; index < str.length; index++) {
     }
 }
 console.log("Total number of vowels: ", count);
+
+var firstWordLength = function(params) {
+    
+}
