@@ -33,6 +33,6 @@ var loging = arraySeasonalFruits.slice(1, 4);
 console.log(loging);
 
 console.log("=============== (8).Last 3 Element==============");
-var last3= arraySeasonalFruits.slice(4,7)
+var last3= arraySeasonalFruits.slice(arraySeasonalFruits.length-3)
 console.log(last3);
 
