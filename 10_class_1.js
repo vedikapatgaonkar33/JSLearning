@@ -1,6 +1,6 @@
 class Bank {
     constructor(bankName, location, account, ifsc, interestRate ){
-        this.bankName = bankName;
+        this.Name = bankName;
         this.location = location;
         this.account = account;
         this.ifsc = ifsc;
