@@ -9,3 +9,5 @@ function checkInterviewEligibility(gradScore,hscScore,sscScore,candidateName){
 checkInterviewEligibility(80,86,90,"vedika");
 checkInterviewEligibility(70,65,55,"Anjali");
 checkInterviewEligibility(60,79,88,"sonal");
+
+

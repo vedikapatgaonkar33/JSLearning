@@ -68,4 +68,7 @@ var frndList= myFriendList.split(" ");
 console.log(frndList);
 console.log(frndList.length);
 console.log("Total words: ",frndList.length)
+console.log("================================================================");
+var frndl=myFriendList.split(",");
+console.log("total frnds",frndl.length);
 

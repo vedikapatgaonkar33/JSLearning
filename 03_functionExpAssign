@@ -1,6 +1,6 @@
 var checkLeapYear = function (leapYear) {
     
-    if (typeof leapYear!="number"|| leapYear==null || leapYear==undefined || typeof leapYear== "string") {
+    if (typeof leapYear!="number"|| leapYear==null || leapYear==undefined || typeof leapYear== "string" || isNaN(leapYear)) {
         console.log(`The Year ${leapYear} is a Invalid `);
     
     } else if (leapYear%4==0) {

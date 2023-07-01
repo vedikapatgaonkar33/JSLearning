@@ -29,8 +29,8 @@ console.log(`Reverse String is: ${result}`);
 console.log(`"write the string"`);
 
 var reverseString = function(str){
-    var reverse = ""; 
-    for (let index = 0; index <= str.length ; index++) { 
+    var reverse = " "; 
+    for (let index = str.length-1; index >= 0 ; index--) { 
        var charAt = str.charAt(index);
        reverse = reverse + charAt; 
     }

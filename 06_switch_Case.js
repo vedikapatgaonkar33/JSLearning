@@ -8,7 +8,7 @@ function weekDay(day){
          console.log(`Day of the week is ${day}: Tuesday`);
          break;
      case 3: 
-         console.log(`Day of the week is ${day}: Wed`);
+         console.log(`Day of the week is ${day}: Wednesday`);
          break; 
      case 4:
          console.log(`Day of the week is ${day}: Thursday`);

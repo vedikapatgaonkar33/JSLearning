@@ -35,7 +35,7 @@ console.log("index of good character:",stringHandOnTrim.indexOf('good'));
 
 console.log("********************  #8  **********************");
 
-var substring = stringHandOnTrim.slice(22,stringHandOnTrim.length)
+var substring = stringHandOnTrim.slice(22)
 console.log("substring starting from 22 index: ",substring);
 
 console.log("********************  #9  **********************");

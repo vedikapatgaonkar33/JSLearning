@@ -1,3 +1,4 @@
+
 class Employee {
     constructor(empId, empName, empDept, empSalary, empCompany) {
       this.empId = empId;

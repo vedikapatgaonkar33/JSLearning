@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Exercise time!</title>
+</head>
+<body>
+    <div id="overview">
+        <h1> HTML and JavaScript are crucial Technologies</h1>
+        <p>The web would not work without them...</p>
+    </div>
+    <div id="advantages">
+      <ul>
+        <li>Flexible</li>
+        <li>Available</li>
+        <li>Magical</li>
+      </ul>
+</div>
+    <script>
+        console.log("====== h1 element store in mainHeading =====");
+        const mainHeading=document.querySelector("h1")
+        console.log(mainHeading.innerHTML);
+        console.log("===== li element stored in secondAdvantagw =====");
+        const secondAdvantage = document.querySelectorAll("li")
+        console.log( secondAdvantage[1].innerHTML);
+        console.log("===== advDiv store <div> with the id advantages");
+        const advanceDiv= document.querySelectorAll("#advantages")
+        console.log(advanceDiv[0].innerHTML);
+    </script>
+    
+</body>
+</html>
+const elementsByQuery = document.querySelectorAll(".liItem");
+elementsByQuery[3].innerHTML = "Oracle Database";
+console.log(elementsByQuery[3]);
